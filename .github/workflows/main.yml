@@ -9,8 +9,6 @@ jobs:
       - uses: actions/setup-node@v2
       - name: setup project libs
         run: make setup
-      - name: start project
-        run: make start
       - name: start tests
         run: make tests
       - name: start linter

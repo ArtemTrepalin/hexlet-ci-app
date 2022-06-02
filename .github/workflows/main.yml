@@ -10,6 +10,6 @@ jobs:
       - name: setup project libs
         run: make setup
       - name: start tests
-        run: make tests
+        run: make test
       - name: start linter
         run: make lint
